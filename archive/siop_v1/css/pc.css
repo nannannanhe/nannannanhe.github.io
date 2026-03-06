@@ -1,0 +1,94 @@
+body{
+    font-size: 20px;
+}
+#header-light, #header-dark{
+    padding: 10px 50px 10px 50px;
+ }
+
+#wrapper{
+    max-width: 95%;
+    padding: 0px 20px 0px 20px;
+}
+.eventinfo{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.placeinfo{
+    width: 50%;
+    padding: 10px;
+}
+
+.contactarea{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.everydaysevent{
+    width: 80%;
+    padding: 20px;
+}
+
+#todaysevent{
+    width: 49%;
+    display: table-cell;
+
+}
+
+#tomorrowsevent{    
+    width: 49%;
+    display: table-cell;
+
+}
+
+input[type="date"]{
+    width: 140px;
+    height: 35px;
+}
+
+button{
+    width: 140px;
+    height: 35px;
+}
+
+.dp{
+    text-align: center;
+}
+.container-table{
+    width:100%;
+    display: table; 
+    border-collapse: separate; 
+    border-spacing: 20px 0;
+    margin: 0 auto;
+}
+.table-row{
+    display: table-row;
+}
+
+input[type="checkbox"]{
+  width: 1.3em; /*Desired width*/
+  height: 1.3em; /*Desired height*/
+}
+
+.searchbox, .searchboxfsearch{
+    width: 70%;
+    margin: 10px auto;
+}
+#inform a:link{
+    color: white;
+}
+#inform a:visited{
+    color: white;
+}
+#inform a:hover{
+    color: #f8b003;
+;
+}
+#inform a:active{
+    color: #f8b003;
+}
+#footer{
+    height: 150px;
+    font-size: 14px;
+}

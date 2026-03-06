@@ -1,0 +1,64 @@
+body{
+    font-size: 15px;
+}
+
+#header-light, #header-dark{
+    padding: 5px 20px 5px 20px;
+ }
+
+#wrapper{
+    max-width: 98%;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+}
+.placeinfo{
+    width: 98%;
+    padding: 12px;
+}
+
+.eventinfo{
+    width: 98%;
+    padding: 10px;
+}
+.dp{
+    text-align: right;
+}
+.contactarea{
+    width: 100%;
+}
+
+input[type="date"]{
+    width: 180px;
+    height: 35px;
+}
+button{
+    width: 200px;
+    height: 35px;
+}
+
+
+h1{
+    font-size: 32px;
+}
+.everydaysevent{
+    width: 100%;
+}
+
+#todaysevent{
+    width: 100%;
+
+}
+#tomorrowsevent{
+    width: 100%;
+}
+.searchbox,.searchboxfsearch{
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+
+#footer{
+    height: 120px;
+    font-size: 12px;
+}
