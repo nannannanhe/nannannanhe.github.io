@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SENDAI is our playground. - 仙台地域ライブイベントまとめサイト・SENDAI AREA GIG GUIDE - </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ライブ好きのための仙台地域イベントまとめサイト。日付や範囲でライブを検索することができます。ライブに行こう！Searching for Live events in Sendai? Try siop!">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ico4.png"> 
+    
+    <link href="css/common.css" rel="stylesheet" type="text/css" >
+    <link href="css/mobile.css" rel="stylesheet" type="text/css"
+          media="(min-width: 0px) and (max-width: 599px)" >
+    <link href="css/tablet.css" rel="stylesheet" type="text/css" 
+          media="(min-width: 600px) and (max-width: 900px)" >
+    <link href="css/pc.css" rel="stylesheet" type="text/css" 
+          media="(min-width: 901px)">
+    
+    
+</head>
+
+<body>
+    <div id="header-light">
+        <h1><span class="kone"><span class="orange">S</span>ENDAI&nbsp;</span><span class="kone"><span class="orange">i</span>s <span class="orange">o</span>ur <span class="orange">p</span>layground.</span></h1>
+    </div>
+
+    <!--pic-header start -->
+    <div id="pic-header">
+    <picture>
+        <source srcset="img/s2000_600.jpg" media="(min-width: 901px)">
+        <source srcset="img/s1000_500.jpg" media="(min-width: 600px) and (max-width: 900px)">
+        <source srcset="img/s600_500.jpg" media="(min-width: 0px) and (max-width: 599px)">
+        <img src="img/s2000_600.jpg" alt="default image">
+    </picture>
+    </div>
+    <!--pic-header ends-->
+    <!-- information -->
+    <div id="inform">
+        <p><a href="./index.html" rel="noopener">SENDAI is our playground. </a>をリニューアルしました。(2020年)</p>
+        <p>記録としてここ（旧サイト）を残してますが、当面は更新中止になっております。</p>
+        <p>仙台地域や配信系のライブもの、または運営者好きな音楽・バンドを、リニューアルした<a href="./siop_v2/index.html" rel="noopener">新サイト</a>の方で紹介してますので、興味ある方是非チェックしてみてください。</p>
+        <p>in music, we trust</p>
+        <div style="color: #aaaaaa !important ; margin-top: 30px;">
+            <p style=" text-decoration: line-through !important; ">ライブ好きのための仙台地域イベントまとめサイト。</p>
+            <p style=" text-decoration: line-through !important; ">現在イベント情報ソースとして参照している会場公式サイトは以下の五軒：<br>XEBIO ARENA SENDAI、SENDAI GIGS、Sendai PIT、Rensa、SENDAI CLUBJUNKBOX。<br>これから続々追加しようと思っています。</p>
+            <p style=" text-decoration: line-through !important; ">ここはあくまで参考程度に留め、<br>最新情報・詳細は各アーティストや会場公式サイトをご確認ください。</p>
+            <p>少しでもお役に立てれば幸いです。<br>ENJOY THE MUSIC!</p>
+        </div>
+    </div>
+        <!--wrapper start-->
+    <div id="wrapper">
+        <!-- search area -->
+                <div class="searchbox">
+            <h3>SEARCH LIVE EVENTS</h3>
+            <form method="POST" action="https://sendaiiop.xrea.jp/search.php">
+                <p><span class="kone"><label for="datestart">from&nbsp;</label><input type="date" name="datestart" id="datestart" value="2019-03-23"></span><span class="kone"><label for="dateends">&nbsp;to&nbsp;</label><input type="date" name="dateends" id="dateends" value="2019-04-20"></span>
+                    <button type='submit' name='action' value='search'>★ SEARCH ★</button></p>
+            </form>
+        </div>
+    <div class="container-table">
+      <div class="table-row">
+        <div id="todaysevent">
+            <h3>今日</h3>
+            <h4 class="date">2026-03-05 (Thu) </h4>
+            <p>No Events.</p>        </div>
+        <div id="tomorrowsevent">
+            <h3>明日</h3>
+            <h4 class="date">2026-03-06 (Fri) </h4>
+            <p>No Events.</p>        </div>
+      </div>
+    </div>
+
+    </div>
+    <!--wrapper end-->
+            <div id="footer">
+        <p><a href="about.html">ABOUT SIOP</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a href="contact.html">CONTACT</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a href="updateinfo.html">UPDATE INFO</a></p>
+        <p id="copyright">Copyright &copy; 2026 sendaiiop.com <span class="kone">All rights reserved.</span></p>
+    </div>
+</body>
+</html>
