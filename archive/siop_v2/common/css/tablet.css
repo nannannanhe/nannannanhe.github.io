@@ -1,0 +1,241 @@
+body{
+    position: relative;
+    background-image:url(../../slider/IMG_20180403_161944_16x9.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-color: black;
+}
+
+#back-slider{
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: black;
+}
+
+#back-slider > div { 
+    position: absolute; 
+    width: 100%;
+    height: 100vh;
+}
+
+.pc-menu{
+    display: none;
+}
+
+.npc-menu{
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.6);
+    width: 23%;
+}
+  .npc-menu .logo{
+    width: 100%;
+    max-width: 300px;
+    font-size: 2em;
+    padding: 0 0 35px 5px;
+  }
+    .npc-menu .logo a{
+      text-decoration: none;
+      color: black;
+    }
+
+  .npc-menu .menu{
+      width: 100%;
+      padding: 0 0 10px 20px;
+      font-size: 1.1em;
+  }
+    .npc-menu .menu a{
+      text-decoration: none;
+      color: black;
+    }
+
+.footer{
+    position: fixed;
+    bottom: 5px;
+    z-index: 3;
+    padding: 0 20px;
+    width: 30%;
+    color: whitesmoke;
+    
+}
+
+.news-container{
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 10px;
+    min-width: 480px;
+    padding: 10px 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.blog-container{
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    padding: 10px 0;
+}
+    .blog-container .article{
+          width: 100%;
+          margin: 0 auto 20px;
+          background-color: rgba(255,255,255,0.8);
+          border-radius: 20px 0 0 20px;
+          padding: 5%;
+
+    }
+    .blog-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .blog-container .article .article-date{
+        text-align: right;
+    }
+
+.page-container{
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    padding: 10px 0;
+}
+    .page-container .article{
+        width: 100%;
+        margin: 0 auto 20px;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 20px 0 0 20px;
+        padding: 5%;
+    }
+    .page-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .page-container .article .article-date{
+        text-align: right;
+    }
+
+.pickup-container{
+    background-color: rgba(7, 176, 44, 0.8);
+    margin: 10px 0;
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    color: white;
+
+}
+    .pickup-container h3{
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;     
+    }
+    .pickup-container .youtube-tlink{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        padding: 30px;
+    }
+
+    .pickup-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .pickup-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .pickup-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .pickup-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .pickup-container .artist-title{
+        padding: 15px;
+        font-size: 1.3em;
+    }
+    .pickup-container .pickup-comment{
+        padding: 0 20px 20px 20px;
+    }
+
+.music-container{
+    background-color: rgba(7, 176, 44, 0.7);
+    margin: 10px 0;
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    color: white;
+    
+}
+    .music-container h3{
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;     
+    }
+    .music-container .youtube-tlink{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        background-color: black;
+        padding: 30px;
+    }
+    
+    .music-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .music-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .music-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .music-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .music-container .artist-title{
+        padding: 15px;
+        font-size: 1.3em;
+    }
+    .music-container .pickup-comment{
+        padding: 0 20px 20px 20px;
+    }
+.music-page{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 5px 10px;
+    text-align: right;
+    margin: 10px 0;
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+}
+    .music-page p a{
+        text-decoration: none;
+        color: black;
+    }
+    .music-page p a:visited{
+        color: black;
+    }

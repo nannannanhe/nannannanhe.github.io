@@ -1,0 +1,212 @@
+body{
+    background-image:url(../../slider/IMG_20180403_161944_16x9.jpg);
+    background-color: black;
+    background-attachment: fixed;
+}
+
+#back-slider{
+  display: none;
+}
+
+.pc-menu{
+    display: none;
+}
+
+.npc-menu{
+    width: 100%;
+}
+  .npc-menu .logo{
+    width: 100%;
+    font-size: 2em;
+    margin: 5px 0;
+    padding: 10px 0 10px 10px;
+    background-color: rgba(255,255,255,0.7);  
+  }
+    .npc-menu .logo a{
+      text-decoration: none;
+      color: black;
+    }
+
+  .npc-menu .menu{
+      display: inline-block;
+      margin: 0;
+      width: 32.5%;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 1.1em;
+      background-color: rgba(255,255,255,0.7);  
+  }
+    .npc-menu .menu a{
+      text-decoration: none;
+      color: black;
+    }
+
+.footer{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+.news-container{
+    width: 100%;
+    padding: 5%;
+    margin: 20px auto 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.blog-container{
+    width: 100%;
+    padding: 10px 0;
+}
+    .blog-container .article{
+          width: 100%;
+          margin: 0 auto 20px;
+          background-color: rgba(255,255,255,0.8);
+          padding: 5%;
+
+    }
+    .blog-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .blog-container .article .article-date{
+        text-align: right;
+    }
+
+.page-container{
+    width: 100%;
+    padding: 10px 0;
+}
+    .page-container .article{
+        width: 100%;
+        margin: 0 auto 20px;
+        background-color: rgba(255,255,255,0.8);
+        padding: 5%;
+    }
+    .page-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .page-container .article .article-date{
+        text-align: right;
+    }
+
+.pickup-container{
+    background-color: rgba(7, 176, 44, 0.8);
+    margin: 10px 0;
+    width: 100%;
+    color: white;
+
+}
+    .pickup-container h3{
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;     
+    }
+    .pickup-container .youtube-tlink{
+        width: 100%;
+        height: 100px;
+        padding: 30px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .pickup-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .pickup-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .pickup-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .pickup-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .pickup-container .artist-title{
+        padding: 15px;
+        font-size: 1.3em;
+    }
+    .pickup-container .pickup-comment{
+        padding: 0 20px 20px 20px;
+    }
+.music-container{
+    background-color: rgba(7, 176, 44, 0.8);
+    margin: 10px 0;
+    width: 100%;
+    color: white;
+    
+}
+    .music-container h3{
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;     
+    }
+    .music-container .youtube-tlink{
+        width: 100%;
+        height: 100px;
+        padding: 30px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .music-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .music-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .music-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .music-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .music-container .artist-title{
+        padding: 15px;
+        font-size: 1.3em;
+    }
+    .music-container .pickup-comment{
+        padding: 0 20px 20px 20px;
+    }
+    .music-container .tips{
+        text-align: center;
+    }
+
+.music-page{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    text-align: right;
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+    .music-page p a{
+        text-decoration: none;
+        color: black;
+    }
+    .music-page p a:visited{
+        color: black;
+    }
+    

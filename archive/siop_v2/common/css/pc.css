@@ -1,0 +1,278 @@
+body{
+    position: relative;
+    background-color: black;
+    background-image:url(../../slider/IMG_20180403_161944_16x9.jpg);
+    background-attachment: fixed;
+    background-position: right;
+}
+
+#back-slider{
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: black;
+}
+
+#back-slider > div { 
+    position: absolute; 
+    width: 100%;
+    height: 100vh;
+}
+
+.pc-menu{
+    z-index: 2;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 15%;
+}
+  .pc-menu .logo{
+    background-color: rgba(255,255,255,0.6);
+    width: 100%;
+    max-width: 300px;
+    font-size: 3em;
+    padding: 0 0 0 5px;
+  }
+    .pc-menu .logo a{
+      text-decoration: none;
+      color: black;
+    }
+    .pc-menu .logo a:hover{
+      font-weight: bolder;
+    }
+  .pc-menu .menu{
+      background-color: rgba(255,255,255,0.6);
+      position: absolute;
+      top: 100px;
+      width: 100%;
+      max-width: 300px;
+      padding: 20px 30px 20px 10%;
+      line-height: 2em;
+      font-size: 1em;
+  }
+    .pc-menu .menu a{
+      text-decoration: none;
+      color: black;
+    }
+    .pc-menu .menu a:hover{
+      text-decoration: underline;
+    }
+
+
+.npc-menu{
+    display: none;
+}
+
+.footer{
+    position: fixed;
+    bottom: 5px;
+    z-index: 3;
+    padding: 0 20px;
+    width: 30%;
+    color: whitesmoke;
+    
+}
+
+.news-container{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    padding: 10px 0;
+}
+    .news-container .article{
+        width: 95%;
+        margin: 0 auto 20px;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 20px;
+        padding: 5%;
+    }
+
+.blog-container{
+    z-index: 2;
+    position: absolute;
+    top: 500px;
+    right: 0;
+    width: 38%;
+    /* min-width: 480px; */
+    padding: 10px 0;
+    min-height: 100%;
+}
+    .blog-container .article{
+          width: 95%;
+          margin: 0 auto 20px;
+          background-color: rgba(255,255,255,0.8);
+          border-radius: 20px;
+          padding: 5%;
+
+    }
+    .blog-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .blog-container .article .article-date{
+        text-align: right;
+    }
+
+.page-container{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    padding: 10px 0;
+    min-height: 100%;
+}
+    .page-container .article{
+        width: 95%;
+        margin: 0 auto 20px;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 20px;
+        padding: 5%;
+    }
+    .page-container .article .article-title{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .page-container .article .article-date{
+        text-align: right;
+    }
+
+.pickup-container{
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(7, 176, 44, 0.8);
+    top: 0;
+    right: 38%;
+    margin: 10px 0;
+    width: 38%;
+    /* min-width: 480px; */
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+
+}
+    .pickup-container h3{
+        text-align: right;
+        padding: 0 30px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        
+    }
+    .pickup-container .youtube-tlink{
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .pickup-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .pickup-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .pickup-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .pickup-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pickup-container .artist-title{
+        padding: 10px 15px;
+        font-size: 1.3em;
+    }
+    .pickup-container .pickup-comment{
+        padding: 10px 15px;
+    }
+
+.music-container{
+    z-index: 2;
+    background-color: rgba(7, 176, 44, 0.8);
+    margin: 10px 0;
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    color: white;    
+}
+    .music-container h3{
+        text-align: right;
+        padding: 10px 30px;
+        font-size: 1.7em;
+        margin-top: 15px;
+        margin-bottom: 5px;
+            
+    }
+    .music-container .youtube-tlink{
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .music-container .youtube-iframe{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .music-container .youtube-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .music-container .spotify-iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .music-container .spotify-iframe iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .music-container .artist-title{
+        padding: 10px 15px;
+        font-size: 1.3em;
+    }
+    .music-container .pickup-comment{
+        padding: 10px 15px;
+    }
+.music-page{
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0;
+    width: 70%;
+    margin-left: 30%;
+    min-width: 480px;
+    color: black;
+    padding: 5px 10px;
+    text-align: right;
+}
+    .music-page p a{
+        text-decoration: none;
+        color: black;
+    }
+    .music-page p a:visited{
+        color: black;
+    }
