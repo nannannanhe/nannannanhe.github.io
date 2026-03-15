@@ -1,64 +1,59 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>MUSICBOARD | SENDAI is our playground.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="音楽付きの掲示板みたいな感じで、音楽の推薦、ライブイベント情報拡散など。">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+TC&family=Noto+Serif+JP:wght@500&family=Noto+Serif+TC:wght@500&family=Oxygen+Mono&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../common/img/favicon.ico"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+TC&family=Noto+Serif+JP:wght@500&family=Noto+Serif+TC:wght@500&family=Oxygen+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../common/img/favicon.ico">
     <link rel="apple-touch-icon" href="../common/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="../common/img/android-chrome-192x192.png">
-    
-    <link href="../common/css/common.css" rel="stylesheet" type="text/css" >
+
+    <link href="../common/css/common.css" rel="stylesheet" type="text/css">
     <link href="../common/css/mobile.css" rel="stylesheet" type="text/css"
-          media="(min-width: 0px) and (max-width: 770px)" >
-    <link href="../common/css/tablet.css" rel="stylesheet" type="text/css" 
-          media="(min-width: 771px) and (max-width: 1399px)" >
-    <link href="../common/css/pc.css" rel="stylesheet" type="text/css" 
-          media="(min-width: 1400px)">
+        media="(min-width: 0px) and (max-width: 770px)">
+    <link href="../common/css/tablet.css" rel="stylesheet" type="text/css"
+        media="(min-width: 771px) and (max-width: 1399px)">
+    <link href="../common/css/pc.css" rel="stylesheet" type="text/css" media="(min-width: 1400px)">
     <link href="../common/libs/font-awesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="../common/libs/font-awesome/css/brands.min.css" rel="stylesheet">
     <script src="../common/libs/lazysizes/lazysizes.min.js"></script>
-    
+
 </head>
+
 <body>
     <div id="back-slider">
         <!-- slides -->
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20200412_164941_16x9.jpg 2400w"
-             sizes="(max-width: 770px) 600px, 2400px"
-             src="../slider/IMG_20200412_164941_16x9.jpg">
+                     ../slider/IMG_20200412_164941_16x9.jpg 2400w" sizes="(max-width: 770px) 600px, 2400px"
+            src="../slider/IMG_20200412_164941_16x9.jpg">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20180407_160701_190524.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20180407_160701_190524.jpg" class="lazyload out">
+                     ../slider/IMG_20180407_160701_190524.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20180407_160701_190524.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20190419_180222_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20190419_180222_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20190419_180222_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20190419_180222_16x9.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20191119_085349_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20191119_085349_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20191119_085349_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20191119_085349_16x9.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20191127_205332_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20191127_205332_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20191127_205332_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20191127_205332_16x9.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20200207_122801_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20200207_122801_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20200207_122801_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20200207_122801_16x9.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20200210_203306_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20200210_203306_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20200210_203306_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20200210_203306_16x9.jpg" class="lazyload out">
         <img data-srcset="../slider/black.png 600w,
-                     ../slider/IMG_20200409_083922_16x9.jpg 2400w"
-             data-sizes="(max-width: 770px) 600px, 2400px"
-             data-src="../slider/IMG_20200409_083922_16x9.jpg" class="lazyload out">
+                     ../slider/IMG_20200409_083922_16x9.jpg 2400w" data-sizes="(max-width: 770px) 600px, 2400px"
+            data-src="../slider/IMG_20200409_083922_16x9.jpg" class="lazyload out">
     </div>
     <div class="pc-menu">
         <div class="logo"><a href="../">siop.</a></div>
@@ -76,250 +71,280 @@
     </div>
     <div class="music-container">
         <div class="tips">
+            This site has been archived as of 202603 and is no longer being updated.<br>
             ★ Spotify 埋め込みプレイヤーの、右上のアイコン <i class="fab fa-spotify"></i> をクリックすると、<br>
             Spotify アプリで「フルサイズ」の曲が聞けます。
         </div>
     </div>
-                <div class="music-container fs">
-                <h3 id="071">#071</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/5iya7HOasYCn93poF1iACu?utm_source=generator&theme=0" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            Age Factory - Pure Blue        </div>
-        
+    <div class="music-container fs">
+        <h3 id="071">#071</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/5iya7HOasYCn93poF1iACu?utm_source=generator&theme=0"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            Age Factory - Pure Blue </div>
+
         <div class="pickup-comment">
             【ライブ情報】<br />
-<br />
-Age Factory<br />
-ONE MAN “Pure Blue” Release TOUR 仙台公演 <br />
-2022年2月19日（SAT）OPEN 17:30 / START 18:00 @仙台Rensa<br />
-<br />
-土曜日のライブですが、<br />
-イープラスの発売ページを見ると、一般発売は2月17日（木）の18:00までだそうです。<br />
-明日です！！お買い忘れなく！<br />
-<br />
-詳細は<a href="https://agefactory.biz/live/2817/" target="_blank" rel="noopener">公式サイト</a>をチェック！<br />
-<br />
-以前、Age Factoryの紹介記事を書いてみました。<br />
-<a href="" target="_blank" rel="noopener">新しい人の時代、僕らはどうしたい？Age Factory</a><br />
-↑ご参考になれば嬉しいです！<br />
-そして「あ、このバンドいいかも」と思ったらぜひライブ見に行ってください！<br />
-百倍以上にカッコいいです！！<br />
-<br />
-2021年11月発売の「Pure Blue」に、個人的におすすめ曲は：<br />
-1) Pure Blue<br />
-2) Feel like shit today<br />
-3) Blink<br />
-<br />
-(nanhé)            <br><br>#JP #ライブ情報（仙台）            <br>Posted: 2022-02-16 17:11:05            <br>Last Updated: 2022-02-16 17:13:44        </div>
+            <br />
+            Age Factory<br />
+            ONE MAN “Pure Blue” Release TOUR 仙台公演 <br />
+            2022年2月19日（SAT）OPEN 17:30 / START 18:00 @仙台Rensa<br />
+            <br />
+            土曜日のライブですが、<br />
+            イープラスの発売ページを見ると、一般発売は2月17日（木）の18:00までだそうです。<br />
+            明日です！！お買い忘れなく！<br />
+            <br />
+            詳細は<a href="https://agefactory.biz/live/2817/" target="_blank" rel="noopener">公式サイト</a>をチェック！<br />
+            <br />
+            以前、Age Factoryの紹介記事を書いてみました。<br />
+            <a href="" target="_blank" rel="noopener">新しい人の時代、僕らはどうしたい？Age Factory</a><br />
+            ↑ご参考になれば嬉しいです！<br />
+            そして「あ、このバンドいいかも」と思ったらぜひライブ見に行ってください！<br />
+            百倍以上にカッコいいです！！<br />
+            <br />
+            2021年11月発売の「Pure Blue」に、個人的におすすめ曲は：<br />
+            1) Pure Blue<br />
+            2) Feel like shit today<br />
+            3) Blink<br />
+            <br />
+            (nanhé) <br><br>#JP #ライブ情報（仙台） <br>Posted: 2022-02-16 17:11:05 <br>Last Updated: 2022-02-16 17:13:44
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="070">#070</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/0XRu9GGSPbgSrZL6yFp2NS?utm_source=generator" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            サカナクション - 三日月サンセット        </div>
-        
+    <div class="music-container fs">
+        <h3 id="070">#070</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/0XRu9GGSPbgSrZL6yFp2NS?utm_source=generator"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            サカナクション - 三日月サンセット </div>
+
         <div class="pickup-comment">
             【ライブ配信情報】<br />
-<br />
-サカナクション<br />
-アダプト TOUR STREAMING LIVE at NIPPON BUDOKAN<br />
-アーカイブ：1月31日（MON）18:00 ~ 2月6日（SUN）23:59<br />
-<br />
-詳細は<a href="https://sakanaction.jp/feature/adapt_budokan_online" target="_blank" rel="noopener">公式特設アダプト TOUR STREAMING LIVE at NIPPON BUDOKAN ページ</a>にてご確認ください。<br />
-<br />
-2021年11月21日のアダプトONLINE公演の1weekオンデマンドの販売時間も、<br />
-同じく2月6日（SUN）23:59までのようです。<br />
-1weekオンデマンドの視聴期間はお申し込み日から7日後の23:59までだそうです。<br />
-<br />
-1weekオンデマンドの詳細は<a href="https://sakanaction.jp/feature/sakanaquarium_adapt_online" target="_blank" rel="noopener">こちらの公式特設ページ</a>にてご確認ください。<br />
-            <br><br>#JP #ライブ配信情報            <br>Posted: 2022-02-05 23:11:44            <br>Last Updated: 2022-02-05 23:13:28        </div>
+            <br />
+            サカナクション<br />
+            アダプト TOUR STREAMING LIVE at NIPPON BUDOKAN<br />
+            アーカイブ：1月31日（MON）18:00 ~ 2月6日（SUN）23:59<br />
+            <br />
+            詳細は<a href="https://sakanaction.jp/feature/adapt_budokan_online" target="_blank" rel="noopener">公式特設アダプト
+                TOUR STREAMING LIVE at NIPPON BUDOKAN ページ</a>にてご確認ください。<br />
+            <br />
+            2021年11月21日のアダプトONLINE公演の1weekオンデマンドの販売時間も、<br />
+            同じく2月6日（SUN）23:59までのようです。<br />
+            1weekオンデマンドの視聴期間はお申し込み日から7日後の23:59までだそうです。<br />
+            <br />
+            1weekオンデマンドの詳細は<a href="https://sakanaction.jp/feature/sakanaquarium_adapt_online" target="_blank"
+                rel="noopener">こちらの公式特設ページ</a>にてご確認ください。<br />
+            <br><br>#JP #ライブ配信情報 <br>Posted: 2022-02-05 23:11:44 <br>Last Updated: 2022-02-05 23:13:28
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="069">#069</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/0Qlw28BZ59ZMHYhFkbpJCz?utm_source=generator" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            Plastic Tree - ライフ・イズ・ビューティフル        </div>
-        
+    <div class="music-container fs">
+        <h3 id="069">#069</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/0Qlw28BZ59ZMHYhFkbpJCz?utm_source=generator"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            Plastic Tree - ライフ・イズ・ビューティフル </div>
+
         <div class="pickup-comment">
             【ライブ配信情報】<br />
-<br />
-Plastic Tree<br />
-Plastic Tree streaming live 「Peep Plastic Partition #15 冬の海は遊泳禁止で」<br />
-2022年2月5日（SAT）OPEN 17:00 / START 18:00<br />
-<br />
-配信アーカイブは2月8日（TUE）23:59まで<br />
-<br />
-詳細は<a href="https://plastic-tree.com/various/live/2021/11/28/" target="_blank" rel="noopener">公式サイト</a>でご確認ください。<br />
-            <br><br>#JP #ライブ配信情報            <br>Posted: 2022-02-05 22:51:33            <br>Last Updated: 2022-02-07 22:16:52        </div>
+            <br />
+            Plastic Tree<br />
+            Plastic Tree streaming live 「Peep Plastic Partition #15 冬の海は遊泳禁止で」<br />
+            2022年2月5日（SAT）OPEN 17:00 / START 18:00<br />
+            <br />
+            配信アーカイブは2月8日（TUE）23:59まで<br />
+            <br />
+            詳細は<a href="https://plastic-tree.com/various/live/2021/11/28/" target="_blank"
+                rel="noopener">公式サイト</a>でご確認ください。<br />
+            <br><br>#JP #ライブ配信情報 <br>Posted: 2022-02-05 22:51:33 <br>Last Updated: 2022-02-07 22:16:52
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="068">#068</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/67NocExMOuOdhZbhgOydSP?utm_source=generator" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            ヒトリエ - イメージ        </div>
-        
+    <div class="music-container fs">
+        <h3 id="068">#068</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/67NocExMOuOdhZbhgOydSP?utm_source=generator"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            ヒトリエ - イメージ </div>
+
         <div class="pickup-comment">
             【ライブ情報】<br />
-<br />
-ヒトリエ<br />
-HITORI-ESCAPE TOUR 2022<br />
-2022年3月17日（THU）OPEN 18:30 / START 19:00 @ 仙台 Rensa <br />
-2022年3月18日（FRI）OPEN 18:30 / START 19:00 @ 仙台 Rensa <br />
-<br />
-【！！オフィシャル２次先行チケット抽選受付中！！】受付期間：1月15日 12:00〜1月23日 23:59<br />
-<br />
-詳細は<a href="https://twitter.com/hitorieJP/status/1482186430093094915?s=20" target="_blank" rel="noopener">公式ツイッター</a>にてご確認ください。            <br><br>#JP #ライブ情報（仙台）            <br>Posted: 2022-01-18 20:56:21            <br>Last Updated: 2022-01-18 20:59:51        </div>
+            <br />
+            ヒトリエ<br />
+            HITORI-ESCAPE TOUR 2022<br />
+            2022年3月17日（THU）OPEN 18:30 / START 19:00 @ 仙台 Rensa <br />
+            2022年3月18日（FRI）OPEN 18:30 / START 19:00 @ 仙台 Rensa <br />
+            <br />
+            【！！オフィシャル２次先行チケット抽選受付中！！】受付期間：1月15日 12:00〜1月23日 23:59<br />
+            <br />
+            詳細は<a href="https://twitter.com/hitorieJP/status/1482186430093094915?s=20" target="_blank"
+                rel="noopener">公式ツイッター</a>にてご確認ください。 <br><br>#JP #ライブ情報（仙台） <br>Posted: 2022-01-18 20:56:21 <br>Last
+            Updated: 2022-01-18 20:59:51
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="067">#067</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/5hmYfJzRzEurC9KcGYGElE?utm_source=generator" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            凛として時雨 - a symmetry        </div>
-        
+    <div class="music-container fs">
+        <h3 id="067">#067</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/5hmYfJzRzEurC9KcGYGElE?utm_source=generator"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            凛として時雨 - a symmetry </div>
+
         <div class="pickup-comment">
             【ライブ情報】<br />
-<br />
-凛として時雨<br />
-DEAD IS ALIVE TOUR 2022<br />
-2022年5月14日（SAT）OPEN 17:00 / START 18:00 @仙台PIT<br />
-<br />
-【！！オフィシャルチケット抽選先行中！！】 受付期間：1月12日18:00〜1月24日23:59<br />
-<br />
-詳細は<a href="https://www.sigure.jp/" target="_blank" rel="noopener">公式サイト</a>からご確認ください            <br><br>#JP #ライブ情報（仙台）            <br>Posted: 2022-01-18 20:13:30            <br>Last Updated: 2022-01-18 20:14:43        </div>
+            <br />
+            凛として時雨<br />
+            DEAD IS ALIVE TOUR 2022<br />
+            2022年5月14日（SAT）OPEN 17:00 / START 18:00 @仙台PIT<br />
+            <br />
+            【！！オフィシャルチケット抽選先行中！！】 受付期間：1月12日18:00〜1月24日23:59<br />
+            <br />
+            詳細は<a href="https://www.sigure.jp/" target="_blank" rel="noopener">公式サイト</a>からご確認ください <br><br>#JP #ライブ情報（仙台）
+            <br>Posted: 2022-01-18 20:13:30 <br>Last Updated: 2022-01-18 20:14:43
+        </div>
     </div>
 
-                <div class="music-container fy">
-                <h3 id="066">#066</h3>
-                <div class="youtube-tlink">
-                    》》<a href="https://www.youtube.com/embed/xSb-gyeCbhE" target="_blank">youtube</a>《《
-                </div>
-            <div class="artist-title">
-            CRYAMY - 月面旅行        </div>
-        
+    <div class="music-container fy">
+        <h3 id="066">#066</h3>
+        <div class="youtube-tlink">
+            》》<a href="https://www.youtube.com/embed/xSb-gyeCbhE" target="_blank">youtube</a>《《
+        </div>
+        <div class="artist-title">
+            CRYAMY - 月面旅行 </div>
+
         <div class="pickup-comment">
             【ライブ情報】<br />
-<br />
-CRYAMY<br />
--red album- リリースツアー [建国物語]<br />
-2021年10月30日（SAT）OPEN 17:30 / START 18:00 @仙台MACANA<br />
-act/ CRYAMY [GUEST] ナードマグネット<br />
-<br />
-詳細は<a href="http://cryamy.tokyo/" target="_blank" rel="noopener">公式サイト</a>まで            <br><br>#JP #ライブ情報            <br>Posted: 2021-10-10 22:25:56            <br>Last Updated: 2021-10-10 22:26:18        </div>
+            <br />
+            CRYAMY<br />
+            -red album- リリースツアー [建国物語]<br />
+            2021年10月30日（SAT）OPEN 17:30 / START 18:00 @仙台MACANA<br />
+            act/ CRYAMY [GUEST] ナードマグネット<br />
+            <br />
+            詳細は<a href="http://cryamy.tokyo/" target="_blank" rel="noopener">公式サイト</a>まで <br><br>#JP #ライブ情報 <br>Posted:
+            2021-10-10 22:25:56 <br>Last Updated: 2021-10-10 22:26:18
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="065">#065</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/2yNyEAQmvGSkknRhphIOjt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            WOMCADOLE - 綺麗な空はある日突然に        </div>
-        
+    <div class="music-container fs">
+        <h3 id="065">#065</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/2yNyEAQmvGSkknRhphIOjt" frameborder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            WOMCADOLE - 綺麗な空はある日突然に </div>
+
         <div class="pickup-comment">
             【ライブ情報】<br />
-<br />
-WOMCADOLE<br />
-近今感魂ツアー<br />
-2021年10月19日（TUE）OPEN 18:00 / START 18:30 @仙台CLUB JUNK BOX<br />
-出演：WOMCADOLE / Ivy to Fraudulent Game / Rhythmic Toy World<br />
-<br />
-詳細は<a href="https://womcadole.com/" target="_blank" rel="noopener">公式サイト</a>まで            <br><br>#JP #ライブ情報            <br>Posted: 2021-10-10 22:14:31            <br>Last Updated: 2021-10-10 22:26:46        </div>
+            <br />
+            WOMCADOLE<br />
+            近今感魂ツアー<br />
+            2021年10月19日（TUE）OPEN 18:00 / START 18:30 @仙台CLUB JUNK BOX<br />
+            出演：WOMCADOLE / Ivy to Fraudulent Game / Rhythmic Toy World<br />
+            <br />
+            詳細は<a href="https://womcadole.com/" target="_blank" rel="noopener">公式サイト</a>まで <br><br>#JP #ライブ情報
+            <br>Posted: 2021-10-10 22:14:31 <br>Last Updated: 2021-10-10 22:26:46
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="064">#064</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/6nofrptUgNV2jWI6GAHa7S" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            拍謝少年 (Sorry Youth) - 我們苦難的蘋果班        </div>
-        
+    <div class="music-container fs">
+        <h3 id="064">#064</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/6nofrptUgNV2jWI6GAHa7S" frameborder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            拍謝少年 (Sorry Youth) - 我們苦難的蘋果班 </div>
+
         <div class="pickup-comment">
             【ライブ・配信情報】<br />
-<br />
-遠隔対バンイベント “Call Out Music “第3弾<br />
-the band apart（日本）/ Sorry Youth（台湾）<br />
-2021年9月24日（FRI）OPEN 18:00 / START 19:00<br />
-※アーカイブ期間 2021年9月27日（MON） 23:59 まで<br />
-<br />
-詳細は<a href="http://www.dmxweb.jp/weekendsession/archives/1912" target="_blank" rel="noopener">公式サイト</a>まで<br />
-<br />
---<br />
-<br />
-昨天偶然在批踢踢看到，在日外國人買現場票可以折1000，(在東京)<br />
-有興趣的人可以去官網看看。<br />
-<br />
-Foreigners in Japan can get a discount of 1000 for buying on-site tickets (in Tokyo).<br />
-Check the official website for more information!<br />
-<br />
-(nanhé)            <br><br>#TW #ライブ配信情報            <br>Posted: 2021-09-21 23:55:20            <br>Last Updated: 2021-09-21 23:56:22        </div>
+            <br />
+            遠隔対バンイベント “Call Out Music “第3弾<br />
+            the band apart（日本）/ Sorry Youth（台湾）<br />
+            2021年9月24日（FRI）OPEN 18:00 / START 19:00<br />
+            ※アーカイブ期間 2021年9月27日（MON） 23:59 まで<br />
+            <br />
+            詳細は<a href="http://www.dmxweb.jp/weekendsession/archives/1912" target="_blank"
+                rel="noopener">公式サイト</a>まで<br />
+            <br />
+            --<br />
+            <br />
+            昨天偶然在批踢踢看到，在日外國人買現場票可以折1000，(在東京)<br />
+            有興趣的人可以去官網看看。<br />
+            <br />
+            Foreigners in Japan can get a discount of 1000 for buying on-site tickets (in Tokyo).<br />
+            Check the official website for more information!<br />
+            <br />
+            (nanhé) <br><br>#TW #ライブ配信情報 <br>Posted: 2021-09-21 23:55:20 <br>Last Updated: 2021-09-21 23:56:22
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="063">#063</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/0vZZrCXUCm8aTWAOmXmxzv" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            MAN WITH A MISSION - Wake Myself Again        </div>
-        
+    <div class="music-container fs">
+        <h3 id="063">#063</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/0vZZrCXUCm8aTWAOmXmxzv" frameborder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            MAN WITH A MISSION - Wake Myself Again </div>
+
         <div class="pickup-comment">
             【配信情報】<br />
-<br />
-MAN WITH A MISSION<br />
-リリース記念特番「MAN WITH A “Online-Gaw-Round” MISSION」<br />
-2021年9月8日（WED）21:00～ @YOUTUBE (無料配信)<br />
-<br />
-9月7日(火)23:59まで当日の予想セトリを募集しているそうです。<br />
-詳細は<a href="https://www.mwamjapan.info/contents/453128" target="_blank" rel="noopener">公式サイト</a>まで<br />
-            <br><br>#JP #配信情報            <br>Posted: 2021-09-06 20:54:05            <br>Last Updated: 2021-09-08 21:14:09        </div>
+            <br />
+            MAN WITH A MISSION<br />
+            リリース記念特番「MAN WITH A “Online-Gaw-Round” MISSION」<br />
+            2021年9月8日（WED）21:00～ @YOUTUBE (無料配信)<br />
+            <br />
+            9月7日(火)23:59まで当日の予想セトリを募集しているそうです。<br />
+            詳細は<a href="https://www.mwamjapan.info/contents/453128" target="_blank" rel="noopener">公式サイト</a>まで<br />
+            <br><br>#JP #配信情報 <br>Posted: 2021-09-06 20:54:05 <br>Last Updated: 2021-09-08 21:14:09
+        </div>
     </div>
 
-                <div class="music-container fs">
-                <h3 id="062">#062</h3>
-                <div class="spotify-iframe">
-                    <iframe src="https://open.spotify.com/embed/track/3VWSb7xFp5z3Di9EiTAkQf" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            <div class="artist-title">
-            9mm Parabellum Bullet - Beautiful Dreamer        </div>
-        
+    <div class="music-container fs">
+        <h3 id="062">#062</h3>
+        <div class="spotify-iframe">
+            <iframe src="https://open.spotify.com/embed/track/3VWSb7xFp5z3Di9EiTAkQf" frameborder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="artist-title">
+            9mm Parabellum Bullet - Beautiful Dreamer </div>
+
         <div class="pickup-comment">
             【ライブ・配信情報】<br />
-<br />
-9mm Parabellum Bullet<br />
-「カオスの百年 vol.14」生ライブ配信<br />
-2021年9月9日（THU）OPEN 17:30 / START 18:00<br />
-アーカイブ期間：9月10日(FRI)18:00 〜 9月12日(SUN)23:59まで<br />
-<br />
-詳細は<a href="https://9mm.jp/news.php#news_1298" target="_blank" rel="noopener">公式サイト</a>まで<br />
-<br />
---<br />
-<br />
-9㎜の日！！！            <br><br>#JP #ライブ配信情報            <br>Posted: 2021-09-06 20:17:39            <br>Last Updated: 2021-09-06 20:18:06        </div>
+            <br />
+            9mm Parabellum Bullet<br />
+            「カオスの百年 vol.14」生ライブ配信<br />
+            2021年9月9日（THU）OPEN 17:30 / START 18:00<br />
+            アーカイブ期間：9月10日(FRI)18:00 〜 9月12日(SUN)23:59まで<br />
+            <br />
+            詳細は<a href="https://9mm.jp/news.php#news_1298" target="_blank" rel="noopener">公式サイト</a>まで<br />
+            <br />
+            --<br />
+            <br />
+            9㎜の日！！！ <br><br>#JP #ライブ配信情報 <br>Posted: 2021-09-06 20:17:39 <br>Last Updated: 2021-09-06 20:18:06
+        </div>
     </div>
 
-        <div class="music-page">
-    <p>
-                    <a href="./mp1.html">NEXT→</a> 
-            </p></div>
+    <div class="music-page">
+        <p>
+            <a href="./mp1.html">NEXT→</a>
+        </p>
+    </div>
     <div class="footer">
         <p>© 2026 sendaiiop.com All Rights Reserved</p>
     </div>
-    
+
     <script src="../common/libs/jquery/jquery-3.6.0.min.js"></script>
     <script src="../common/js/jq-slider.js"></script>
 </body>
