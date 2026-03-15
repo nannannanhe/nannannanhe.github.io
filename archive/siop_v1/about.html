@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex">
     <title>ABOUT | SENDAI is our playground.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="仙台ライブまとめサイトsiopの仕組みとかいろいろ紹介するところです。ライブ検索はこのページ左上のタイトル「SENDAI is our playground.」をタップしてGO。">
+    <meta name="description"
+        content="仙台ライブまとめサイトsiopの仕組みとかいろいろ紹介するところです。ライブ検索はこのページ左上のタイトル「SENDAI is our playground.」をタップしてGO。">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
-    <link rel="shortcut icon" href="img/ico4.png"> 
-    
-    <link href="css/common.css" rel="stylesheet" type="text/css" >
-    <link href="css/mobile.css" rel="stylesheet" type="text/css"
-          media="(min-width: 0px) and (max-width: 599px)" >
-    <link href="css/tablet.css" rel="stylesheet" type="text/css" 
-          media="(min-width: 600px) and (max-width: 900px)" >
-    <link href="css/pc.css" rel="stylesheet" type="text/css" 
-          media="(min-width: 901px)">
-    
-    
+    <link rel="shortcut icon" href="img/ico4.png">
+
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="(min-width: 0px) and (max-width: 599px)">
+    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="(min-width: 600px) and (max-width: 900px)">
+    <link href="css/pc.css" rel="stylesheet" type="text/css" media="(min-width: 901px)">
+
+
 </head>
 
 <body>
     <div id="header-light">
-        <h1><a href="index.html"><span class="kone"><span class="orange">S</span>ENDAI&nbsp;</span><span class="kone"><span class="orange">i</span>s <span class="orange">o</span>ur <span class="orange">p</span>layground.</span></a></h1>
+        <h1><a href="index.html"><span class="kone"><span class="orange">S</span>ENDAI&nbsp;</span><span
+                    class="kone"><span class="orange">i</span>s <span class="orange">o</span>ur <span
+                        class="orange">p</span>layground.</span></a></h1>
     </div>
 
     <!--pic-header start -->
     <div id="pic-header">
-    <picture>
-        <source srcset="img/h2000_600.jpg" media="(min-width: 901px)">
-        <source srcset="img/h1000_500.jpg" media="(min-width: 600px) and (max-width: 900px)">
-        <source srcset="img/h600_500.jpg" media="(min-width: 0px) and (max-width: 599px)">
-        <img src="img/h2000_600.jpg" alt="default image">
-    </picture>
+        <picture>
+            <source srcset="img/h2000_600.jpg" media="(min-width: 901px)">
+            <source srcset="img/h1000_500.jpg" media="(min-width: 600px) and (max-width: 900px)">
+            <source srcset="img/h600_500.jpg" media="(min-width: 0px) and (max-width: 599px)">
+            <img src="img/h2000_600.jpg" alt="default image">
+        </picture>
     </div>
     <!--pic-header ends-->
     <div id="wrapper">
         <div class="contactarea">
             <h4>about siop</h4>
-            <p>約９年前？GIGGUIDEという<span class="orange">地域向けイベントまとめ系サイト</span>が流行ってた覚えがあります。台湾にもありました。<a href="http://www.gigguide.tw/" target="_blank">GigGuide.tw</a>というサイトです（今はもう運営してないですが）。当時まだ学生だった私はよくそれを使って<span class="orange">空いてる時間になんか面白いライブがあるのかなのを検索</span>して、ライブをいっぱい見ました。</p>
-            <p>当時そういう系のサイトはほとんど人手でイベント情報を入力してる印象が残ってます。そうすると、メインテナンスにも割と人力使うし、入力している使用者の音楽趣味によってまとめたイベント情報にも偏りが出ます。</p><p>なら、その地域にある全てのライブ会場のイベント情報を自動的に取得し大らかに分析して、仮のDBに一度格納して、人によりそのデータを整理して今度は正式のDBに格納し、使用者は正式のDBからまとめたイベント情報を検索する、という作法はどうでしょうか？</p>
-            <p>初期化の時parserとか作らないといけないし、仕事の量は結構きついけど、そのあとのメインテナンスは前に比べるとだいぶ楽になるんでしょう？また、自動的に取得するとはいえ、<span class="orange">アクセス行為は人間同様に設定されているので、ライブ会場公式サイトのサーバーにも負担かからないのです。</span></p>
-            <p>そういう発想から、siopを作ってみました。</p><p>今はまだ<span class="orange">prototype</span>で、仙台地域ライブハウス情報を全て加入してないですけど、いつかはぜひ完全体のsiopを完成させたいです。</p>
+            <p>約９年前？GIGGUIDEという<span class="orange">地域向けイベントまとめ系サイト</span>が流行ってた覚えがあります。台湾にもありました。<a
+                    href="http://www.gigguide.tw/"
+                    target="_blank">GigGuide.tw</a>というサイトです（今はもう運営してないですが）。当時まだ学生だった私はよくそれを使って<span
+                    class="orange">空いてる時間になんか面白いライブがあるのかなのを検索</span>して、ライブをいっぱい見ました。</p>
+            <p>当時そういう系のサイトはほとんど人手でイベント情報を入力してる印象が残ってます。そうすると、メインテナンスにも割と人力使うし、入力している使用者の音楽趣味によってまとめたイベント情報にも偏りが出ます。</p>
+            <p>なら、その地域にある全てのライブ会場のイベント情報を自動的に取得し大らかに分析して、仮のDBに一度格納して、人によりそのデータを整理して今度は正式のDBに格納し、使用者は正式のDBからまとめたイベント情報を検索する、という作法はどうでしょうか？
+            </p>
+            <p>初期化の時parserとか作らないといけないし、仕事の量は結構きついけど、そのあとのメインテナンスは前に比べるとだいぶ楽になるんでしょう？また、自動的に取得するとはいえ、<span
+                    class="orange">アクセス行為は人間同様に設定されているので、ライブ会場公式サイトのサーバーにも負担かからないのです。</span></p>
+            <p>そういう発想から、siopを作ってみました。</p>
+            <p>今はまだ<span class="orange">prototype</span>で、仙台地域ライブハウス情報を全て加入してないですけど、いつかはぜひ完全体のsiopを完成させたいです。</p>
             <p>名前の由来は<span class="kone">Suede - Europe Is Our Playground。</span></p>
             <h4>これから</h4>
-            <p>ライブハウスmacana, hook, darwin, enn2nd/3rdなどのイベント情報を加入。twitter botを作って毎日自動的に今日と明日のイベントまとめを発信。structural optimization などなど。</p>
+            <p>ライブハウスmacana, hook, darwin, enn2nd/3rdなどのイベント情報を加入。twitter botを作って毎日自動的に今日と明日のイベントまとめを発信。structural
+                optimization などなど。</p>
             <h4>about 運営者</h4>
             <p>南河（ちょー）</p>
             <p>台湾生まれ、台湾育ち。音楽好き、ライブ好き。明るくて面白くて暴れる踊れるやつが好きだけど、暗くて泣ける鳥肌立つやつもわりと好きです。</p>
             <p>blog: <a href="" target="_blank">SENDAI is our playground.</a></p>
-        
+
         </div>
-        
+
     </div>
-    
-           
+
+
     <div id="footer">
-        <p><a href="about.html">ABOUT SIOP</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a href="contact.html">CONTACT</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a href="updateinfo.html">UPDATE INFO</a></p>
+        <p><a href="about.html">ABOUT SIOP</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a
+                href="contact.html">CONTACT</a>&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;<a href="updateinfo.html">UPDATE
+                INFO</a></p>
         <p id="copyright">Copyright &copy; 2026 sendaiiop.com <span class="kone">All rights reserved.</span></p>
     </div>
 </body>
+
 </html>
-    
