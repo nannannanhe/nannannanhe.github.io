@@ -1,0 +1,34 @@
+/*
+Theme Name: Kent Child
+Description: Kent is a clean WordPress theme designed for writers who want to focus on writing content. It's the perfect theme for people who want to tell stories. Kent includes custom header, social links, and footer widget options to allow you to lay out your site exactly as you wish.
+Version: 1.8
+Template: kent
+Tags: one-column, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog
+
+License: GNU General Public License v2.0 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+    font: normal 106.25%/1.55 'Noto Serif JP', 'Noto Serif TC', 'Roboto Slab', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important;
+}
+
+#main article .d_modified {
+  font-size: 85%;
+  margin-bottom: 0.875em;
+  clear: both;
+  margin-bottom: 1.75em / 2;
+}
+#main article .d_modified:before {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Genericons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  vertical-align: bottom;
+  margin-right: 2px;
+}
+
+#main article .d_modified:before {
+    content: '\f411';
+  }
