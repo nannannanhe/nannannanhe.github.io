@@ -13,14 +13,14 @@ The project evolved over time as the live music environment and my available tim
 
 #### Version 1, Gig Guide, 2019
 
-- https://nannannanhe.github.io/archive/siop_v1/
+- [https://nannannanhe.github.io/archive/siop_v1/](https://nannannanhe.github.io/archive/siop_v1/)
 - A personal project I built in 2019 to collect live event information in Sendai, Japan.
 - Several crawlers and a semi-automated data update workflow were built to keep the information up to date.
 - Tech stack: HTML, CSS, MySQL, Python
 
 #### Version 2, Musicboard + Blog, 2020
 
-- https://nannannanhe.github.io/archive/siop_v2/
+- [https://nannannanhe.github.io/archive/siop_v2/](https://nannannanhe.github.io/archive/siop_v2/)
 - Rebuilt the website into two parts: a musicboard and a blog.
 - Musicboard: a manually curated page for sharing interesting music and live events, built with a custom MySQL database and plain HTML.
 - Blog: a WordPress site for articles related to Sendai, music and Taiwanese band lyric translations (Traditional Chinese → Japanese).
